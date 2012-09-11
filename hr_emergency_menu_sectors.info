@@ -1,0 +1,10 @@
+name = Humanitarianresponse Emergency Menu Sectors
+description = Rename clusters to Sectors in Emergency Menu
+core = 7.x
+package = HR Sectors
+dependencies[] = hr_sectors
+dependencies[] = humanitarianresponse_emergency_menu
+features[features_api][] = api:1
+features[features_override_items][] = uuid_menu_links.main-menu:clusters
+features[features_overrides][] = uuid_menu_links.main-menu:clusters.link_title
+features[features_overrides][] = uuid_menu_links.main-menu:clusters.link_path

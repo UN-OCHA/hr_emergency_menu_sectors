@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Humanitarianresponse Emergency Menu Sectors feature.
+ */
+
+include_once 'hr_emergency_menu_sectors.features.inc';
